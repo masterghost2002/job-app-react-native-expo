@@ -1,6 +1,7 @@
 {
   "expo": {
     "scheme": "acme",
+    "splash": "assets/splash.png",
     "web": {
       "bundler": "metro"
     },
@@ -8,6 +9,25 @@
       "expo-router"
     ],
     "name": "native",
-    "slug": "native"
+    "slug": "jobscraper",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9aac222a-e5a1-48a2-b12c-9ae852f13b73"
+      }
+    },
+    "owner": "rakeshdhariwal657",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9aac222a-e5a1-48a2-b12c-9ae852f13b73"
+    },
+    "android": {
+      "package": "com.rakeshdhariwal657.jobscraper"
+    },
+    "ios": {}
   }
 }
